@@ -1,4 +1,102 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
 }
-img {width: 250px;}
+
+img {
+    width: 250px;
+    border: 3px solid #A27B5C !important;
+    border-radius: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3639;
+    color: #fff;
+    gap: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+button {
+    background-color: #A27B5C;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 16px;
+}
+
+.logo {
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-weight: 700;
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+
+.thumbnail {
+    display: flex;
+    flex: 1;
+    margin-right: 15%;
+    height: 250px;
+    align-self: center;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.pictures {
+    display: flex;
+    gap: 25px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 32px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 150px;
+    font-style: italic;
+}
+
+.qbg {
+    background-color: #DCD7C9;
+    margin-top: 200px;
+}
