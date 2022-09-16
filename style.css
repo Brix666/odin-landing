@@ -1,6 +1,9 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
 }
 
 img {
@@ -28,7 +31,8 @@ button {
     width: 150px;
     border: none;
     border-radius: 16px;
-    font-size: 18px
+    font-size: 18px;
+    margin-top: 3px;
 }
 
 .menu {
@@ -82,6 +86,7 @@ main {
 .pictures {
     display: flex;
     gap: 25px;
+    justify-content: center;
 }
 .text {
     display: flex;
@@ -99,4 +104,49 @@ main {
 .qbg {
     background-color: #DCD7C9;
     margin-top: 200px;
+}
+
+.cta {
+    background-color: #A27B5C;
+    display: flex;
+    width: 70%;
+    padding: 40px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    border-radius: 16px;
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 10%;
+}
+
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    gap: 16px;
+    text-align: center;
+}
+
+.button2 {
+    border: 3px #fff solid;
+    border-radius: 8px;
+    margin-right: 10%;
+}
+
+footer {
+    background-color: #2C3639;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
